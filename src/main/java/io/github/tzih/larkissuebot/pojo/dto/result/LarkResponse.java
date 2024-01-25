@@ -28,4 +28,15 @@ public class LarkResponse {
     @JsonAlias("StatusMessage")
     private String statusMessage;
 
+    @Override
+    public String toString() {
+        return "LarkResponse{" +
+                "code=" + code +
+                ", msg='" + msg + '\'' +
+                ", data=" + data +
+                ", extra=" + extra +
+                ", statusCode=" + statusCode +
+                ", statusMessage='" + statusMessage + '\'' +
+                '}';
+    }
 }

@@ -10,7 +10,6 @@ import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
-import org.apache.hc.client5.http.impl.classic.HttpClients;
 import org.apache.hc.core5.http.HttpEntity;
 import org.apache.hc.core5.http.io.entity.StringEntity;
 import org.aspectj.lang.JoinPoint;
@@ -127,6 +126,9 @@ public class LarkBotUtil {
         // 发送消息
         try {
             LarkResponse response = httpClient.execute(httpPost, basicLarkRespHandler);
+            if (response != null) {
+                log.info("lark issue bot send message is ok, message param is {}, response is {}", httpPost, response);
+            }
         } catch (IOException e) {
             log.error("lark issue bot send message is error, message param is {}, error message is {}", httpPost, e.getMessage());
         }

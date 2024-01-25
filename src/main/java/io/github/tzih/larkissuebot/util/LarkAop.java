@@ -28,7 +28,6 @@ public class LarkAop {
         log.info("lark issue bot is ok, pointcut is: {}", pointcut);
     }
 
-    // TODO: 后续要使用动态切点表达式优化切点配置
     // 切点
     @Pointcut(pointcut)
     public void lark() {
