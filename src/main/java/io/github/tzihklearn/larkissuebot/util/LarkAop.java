@@ -1,4 +1,4 @@
-package io.github.tzih.larkissuebot.util;
+package io.github.tzihklearn.larkissuebot.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;

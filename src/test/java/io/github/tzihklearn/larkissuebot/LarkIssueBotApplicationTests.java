@@ -1,4 +1,4 @@
-package io.github.tzih.larkissuebot;
+package io.github.tzihklearn.larkissuebot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

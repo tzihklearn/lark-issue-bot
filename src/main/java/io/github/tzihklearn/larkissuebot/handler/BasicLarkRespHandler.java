@@ -1,7 +1,7 @@
-package io.github.tzih.larkissuebot.handler;
+package io.github.tzihklearn.larkissuebot.handler;
 
 import com.alibaba.fastjson2.JSON;
-import io.github.tzih.larkissuebot.pojo.dto.result.LarkResponse;
+import io.github.tzihklearn.larkissuebot.pojo.dto.result.LarkResponse;
 import org.apache.hc.client5.http.impl.classic.AbstractHttpClientResponseHandler;
 import org.apache.hc.core5.http.HttpEntity;
 import org.springframework.stereotype.Component;

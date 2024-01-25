@@ -1,4 +1,4 @@
-package io.github.tzih.larkissuebot.pojo.dto.result;
+package io.github.tzihklearn.larkissuebot.pojo.dto.result;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.Getter;

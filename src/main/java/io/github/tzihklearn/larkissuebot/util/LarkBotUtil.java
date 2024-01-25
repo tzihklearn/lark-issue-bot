@@ -1,10 +1,10 @@
-package io.github.tzih.larkissuebot.util;
+package io.github.tzihklearn.larkissuebot.util;
 
 import com.alibaba.fastjson2.JSONObject;
-import io.github.tzih.larkissuebot.handler.BasicLarkRespHandler;
-import io.github.tzih.larkissuebot.pojo.dto.data.Entry;
-import io.github.tzih.larkissuebot.pojo.dto.result.LarkResponse;
-import io.github.tzih.larkissuebot.pojo.po.ReqData;
+import io.github.tzihklearn.larkissuebot.handler.BasicLarkRespHandler;
+import io.github.tzihklearn.larkissuebot.pojo.dto.data.Entry;
+import io.github.tzihklearn.larkissuebot.pojo.dto.result.LarkResponse;
+import io.github.tzihklearn.larkissuebot.pojo.po.ReqData;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;

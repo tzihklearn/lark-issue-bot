@@ -1,4 +1,4 @@
-package io.github.tzih.larkissuebot.pojo.po;
+package io.github.tzihklearn.larkissuebot.pojo.po;
 
 import lombok.Getter;
 import lombok.Setter;
